@@ -20,6 +20,8 @@ O DOM é chamado de "árvore de objetos" porque ele organiza tudo de forma **hie
 Cada um desses "enfeites" é um **objeto** que o JavaScript pode acessar pelo nome.
 
 ---
+<img width="1159" height="649" alt="image" src="https://github.com/user-attachments/assets/1af479f6-bece-49cb-8f1f-8eba693a6f54" />
+
 
 ## Como o JavaScript Usa Esse Mapa?
 
@@ -30,5 +32,6 @@ O verdadeiro poder do DOM está em permitir que o **JavaScript faça mágica**. 
 * **Mudar o Rótulo:** Encontrar o objeto "botão" e mudar o texto de "Comprar" para "Adicionado!".
 * **Mudar a Decoração (CSS):** Encontrar o objeto "cabeçalho" e mudar sua cor de azul para vermelho quando o usuário clicar em um tema escuro.
 * **Criar Elementos do Nada:** Criar um novo objeto de lista (`<li>`) e colocá-lo no objeto "lista de tarefas" sem recarregar nada.
+<img width="1159" height="649" alt="image" src="https://github.com/user-attachments/assets/254f9681-9c77-4b17-9912-b6a64a611826" />
 
 Em resumo, o **DOM é a interface** que dá ao JavaScript o **poder de controle total** sobre o que o usuário vê na tela. Sem o DOM, as páginas da web seriam apenas documentos estáticos sem interatividade.
