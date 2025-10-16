@@ -1,0 +1,104 @@
+/* ---------------------------------- */
+/* 1. ESTILO GLOBAL E BODY (FUNDO)    */
+/* ---------------------------------- */
+body {
+    /* Fundo suave e cinza claro, centralizando o conteúdo */
+    background-color: #f4f4f9; 
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;     /* Centraliza verticalmente (se body tiver altura suficiente) */
+    min-height: 100vh;       /* Garante que o body cubra toda a altura da viewport */
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* ---------------------------------- */
+/* 2. ESTILO DO CARTÃO (O CONTAINER BRANCO) */
+/* ---------------------------------- */
+main {
+    /* Define o tamanho e o visual do cartão (o elemento <main> é o container) */
+    width: 100%;
+    max-width: 400px; /* Limita a largura para dispositivos maiores */
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    /* Sombra suave e elegante para dar o efeito "flutuante" */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
+}
+
+/* ---------------------------------- */
+/* 3. ESTILO DO TÍTULO */
+/* ---------------------------------- */
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 25px;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+/* ---------------------------------- */
+/* 4. ESTILO DO FORMULÁRIO E LABELS */
+/* ---------------------------------- */
+form {
+    /* Garante que o formulário use toda a largura disponível */
+    display: block; 
+}
+
+label {
+    /* Labels em cima dos inputs */
+    display: block; 
+    margin-bottom: 5px;
+    margin-top: 15px;
+    font-weight: 500;
+    color: #555;
+    font-size: 0.9em;
+}
+
+/* ---------------------------------- */
+/* 5. ESTILO DOS INPUTS DE TEXTO E NÚMERO */
+/* ---------------------------------- */
+input[type="text"], 
+input[type="number"] {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 10px; /* Espaço após o input */
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box; /* Garante que o padding não aumente a largura total */
+    font-size: 1em;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+    /* Efeito de foco suave */
+    border-color: #007bff; /* Cor azul primária */
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+}
+
+/* ---------------------------------- */
+/* 6. ESTILO DO BOTÃO CADASTRAR */
+/* ---------------------------------- */
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 30px;
+    /* Cor de fundo azul primária da imagem */
+    background-color: #007bff; 
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: 600;
+    transition: background-color 0.3s;
+    /* Sombra sutil no botão */
+    box-shadow: 0 2px 4px rgba(0, 123, 255, 0.4); 
+}
+
+button[type="submit"]:hover {
+    /* Escurece levemente no hover */
+    background-color: #0056b3; 
+}
