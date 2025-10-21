@@ -1,0 +1,36 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    align-items: center;
+}
+
+main{
+    max-width: 1000px;
+    margin: auto;
+    padding: 10em;
+    background-color: #fff;
+    margin-top: 15em;
+    border-radius: 8px;
+}
+
+button{
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+}
+button:hover{
+    background-color: #000000;
+}
+
+body.light {
+    background-color: #ffffff;
+    color: #000000;
+}
+body.dark {
+    background-color: #121212;
+    color: #e0e0e0;
+}
