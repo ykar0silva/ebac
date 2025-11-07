@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Clientes (API)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main>
+        <h1>Gestão de Clientes</h1>
+
+        <section class="form-container">
+            <h2>Cadastrar Cliente</h2>
+            <form id="formCliente">
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required>
+                </div>
+                <button type="submit" id="btnSalvar">Salvar</button>
+            </form>
+        </section>
+
+        <hr>
+
+        <section class="list-container">
+            <h2>Clientes Cadastrados</h2>
+            <ul id="listaClientes">
+                </ul>
+        </section>
+    </main>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
